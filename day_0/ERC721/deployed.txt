@@ -1,0 +1,2 @@
+KsNFTContract contract Address:   https://mumbai.polygonscan.com/address/0xDE24Fdd9d6ecC979b49238c9A40c84050E2E2D41
+K_A_D_Contract Address: https://mumbai.polygonscan.com/address/0x37a96d8976811b4fc26ae64d79d5493eb85ee869

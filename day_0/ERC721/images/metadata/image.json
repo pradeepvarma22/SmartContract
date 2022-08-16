@@ -1,0 +1,22 @@
+{
+    "name": "K_a_d_image1_NFT",
+    "description": "bvrit photography",
+    "image": "https://ipfs.io/ipfs/bafybeidf6wlm2r2p6oi76usbodsfoc52dqhduewzy2iojpvbgpsf2ynbcy/image.jpeg",
+    "attributes": [
+        {
+            "trait_type": "Strength",
+            "value": 7,
+            "max_value": 10
+        },
+        {
+            "trait_type": "Cool",
+            "value": 9,
+            "max_value": 10
+        },
+        {
+            "trait_type": "Skills",
+            "value": 10,
+            "max_value": 10
+        }
+    ]
+}
