@@ -61,6 +61,26 @@ describe("Staking", function () {
 
       it("should deposit erctokens", async function() {
 
+        await Staking.connect(wallet1).depositTokens(
+          100,
+          tokenInBytes,
+        );
+        await Staking.connect(wallet2).depositTokens(
+          50,
+          tokenInBytes,
+        );
+  
+        expect(await token.balanceOf(wallet1.address)).to.equal(3900);
+        expect(await token.balanceOf(wallet2.address)).to.equal(950);
+  
+        expect(
+          await Staking._accountBalances(wallet1.address, tokenInBytes)
+        ).to.equal(100);
+        expect(
+          await Staking._accountBalances(wallet2.address, tokenInBytes)
+        ).to.equal(50);
+  
+
         
       });
       
@@ -71,7 +91,22 @@ describe("Staking", function () {
 
       it("should withdraw erctokens from the contract", async function() {
 
+        await Staking.connect(wallet1).depositTokens(
+          600,
+          tokenInBytes,
+        );
+        await Staking.connect(wallet1).withdrawTokens(
+          100,
+          tokenInBytes,
+        );
 
+
+        expect(await token.balanceOf(wallet1.address)).to.equal(3500);
+        expect(
+          await Staking._accountBalances(wallet1.address, tokenInBytes)
+        ).to.equal(500);
+  
+          
         
       });
       
