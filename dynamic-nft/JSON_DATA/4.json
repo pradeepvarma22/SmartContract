@@ -1,0 +1,23 @@
+{
+    "name": "INIT 4th STAGE",
+    "description": "INIT 4th STAGE",
+    "image": "https://ipfs.io/ipfs/bafybeig4rxugzleveen7ruekt2h7ofq3zr6wjultwlcdvzulwakk2ijnki/4.jpg",
+    "attributes": [
+        {
+            "trait_type": "Strength",
+            "value": 5,
+            "max_value": 10
+        },
+        {
+            "trait_type": "Cool",
+            "value": 6,
+            "max_value": 10
+        },
+        {
+            "trait_type": "Skills",
+            "value": 7,
+            "max_value": 10
+        }
+    ]
+
+}

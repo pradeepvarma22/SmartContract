@@ -1,0 +1,23 @@
+{
+    "name": "INIT STAGE",
+    "description": "INIT STAGE",
+    "image": "https://ipfs.io/ipfs/bafybeihs2ngce2ig2ahwjef3qtugsa6a6edszqmdoc3x4jsd56trumpxxe/1.jpg",
+    "attributes": [
+        {
+            "trait_type": "Strength",
+            "value": 1,
+            "max_value": 10
+        },
+        {
+            "trait_type": "Cool",
+            "value": 3,
+            "max_value": 10
+        },
+        {
+            "trait_type": "Skills",
+            "value": 2,
+            "max_value": 10
+        }
+    ]
+
+}

@@ -1,0 +1,23 @@
+{
+    "name": "INIT 2nd STAGE",
+    "description": "INIT 2nd STAGE",
+    "image": "https://ipfs.io/ipfs/bafybeig3c63vobm7wbn2xcc4c36u272run6ucxg6xmjiamq52m2nv5ngoi/2.jpg",
+    "attributes": [
+        {
+            "trait_type": "Strength",
+            "value": 3,
+            "max_value": 10
+        },
+        {
+            "trait_type": "Cool",
+            "value": 4,
+            "max_value": 10
+        },
+        {
+            "trait_type": "Skills",
+            "value": 5,
+            "max_value": 10
+        }
+    ]
+
+}
